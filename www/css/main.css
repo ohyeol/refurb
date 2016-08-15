@@ -1,8 +1,11 @@
-#head,#cont, #footer{width:1200px;margin:0 auto;}
+#head,#cont, #footer{min-width:1200px;margin:0 auto;}
 
+.w1200 {width:1200px !important;margin:0 auto;}
+.bgGB{background-color: #49c1ab;}
+.bdBtmWh {border-bottom:1px solid white;}
 
 /**헤더**/
-#head {padding-top:30px;}
+#head {padding-top:30px; }
 #head .h_top{overflow:hidden; height:100%;}
 #head .h_left,#head .h_right{display:inline-block;overflow:hidden;}
 #head .h_left{float:left;}
@@ -10,8 +13,40 @@
 #head .h_right .h_search{margin-top:55px;}
 #head .h_right .h_member{margin-left:30px;}
 
+#head .bgGB{height:40px;margin-bottom:5px;}
+#head .topMenu{ background-color: #49c1ab; width: 100%; height: 100%; margin-top: 1em; margin-bottom:5px;  }
+#head .topMenu .depth1 > li:first-of-type{background:none;border-right:2px solid white;margin-right:0}
+#head .topMenu .depth1 > li{cursor:pointer;float:left;color:white;list-style:none
+	;background:url("/refurb/img/topMenu_slctBtn.png") right 0% top 50% no-repeat
+	;padding-right:40px;font-size:24px; line-height:5px;
+	position:relative;line-height:35px;margin-right:20px;
+}
+#head .topMenu .depth1 > li > span{height: 40px;display: inline-block;padding: 0 20px;}
+#head .topMenu .depth1 > li:hover{background:#8e8b8b;}
+
+/** 2뎁스 시작**/
+#head .topMenu .depth2{position:absolute;display:none;background:#8e8b8b ;width:100%;;top:100%;z-index:20;padding:20px;}
+#head .topMenu .depth2 li{line-height:35px;list-style:none;}
+#head .topMenu .depth2 li a{font-size:18px;color:white;}
+#head .topMenu .depth2 li a:hover{color:black;}
+
+
+/** 최근 본 상품**/
+#head .rcnt {position:fixed;left:90%;top:50%;}
+#head .rcnt .rcntCont{border:1px solid #8e8b8b;padding:10px;background:white;}
+#head .rcnt .rcntTit h2{font-size:17px !important;}
+#head .rcnt .tit{padding:20px 0;}
+#head .rcnt li{list-style:none;padding:10px;border:1px solid #8e8b8b;margin-top:5px;}
+#head .rcnt img{width:70px;margin:0 auto;}
+
+
+
+
+#cont .c_top{background:#49c1ab;padding:30px 0;}
+
+
+
 /**컨텐츠**/
-#cont .c_navbar{overflow: hidden; background-color: #49c1ab; width: 100%; height: 100%; margin-top: 1em; }
 
 /********************************
  * 인기상품 슬라이드 css 기본 설정(절대 건들지 마세요)
