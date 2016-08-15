@@ -1,0 +1,50 @@
+/** 메인 로고 **/
+#mainlogo
+{
+  position: fixed;
+  left : 100px;
+  top : 2.1em;
+}
+
+#login
+{
+  position: fixed;
+  left : 87.5%;
+  top : 2.5em;
+}
+
+/**광고 슬라이드**/
+#AD_Carousel
+{
+  position: fixed;
+  width: 1920px;
+  height: 567px;
+  top:14em;
+  background-color: #49c1ab;
+}
+
+#top9
+{
+  position: fixed;
+  top:15.5em;
+  margin-left: 1370px;
+}
+
+#table_3x3
+{
+  position: fixed;
+  top:21.5em;
+  margin-left: 1330px;
+}
+
+ul
+{
+  list-style-type: none;
+  overflow: auto;
+}
+
+li
+{
+  display: inline;
+  float: left;
+}

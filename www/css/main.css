@@ -1,0 +1,112 @@
+#head,#cont, #footer{width:1200px;margin:0 auto;}
+
+
+/**헤더**/
+#head {padding-top:30px;}
+#head .h_top{overflow:hidden; height:100%;}
+#head .h_left,#head .h_right{display:inline-block;overflow:hidden;}
+#head .h_left{float:left;}
+#head .h_right{float:right; height:130px;}
+#head .h_right .h_search{margin-top:55px;}
+#head .h_right .h_member{margin-left:30px;}
+
+/**컨텐츠**/
+#cont .c_navbar{overflow: hidden; background-color: #49c1ab; width: 100%; height: 100%; margin-top: 1em; }
+
+/********************************
+ * 인기상품 슬라이드 css 기본 설정(절대 건들지 마세요)
+ ********************************/
+.als-container
+{
+	position: relative;
+	width: 99%;
+	margin: 0px auto;
+	height: 220px;
+	border: 3px solid #49c1ab;
+	border-radius: 15px;
+}
+
+.als-viewport
+{
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.als-wrapper
+{
+	position: relative;
+	list-style: none;
+}
+
+.als-item
+{
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+.als-prev, .als-next
+{
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+
+
+/**************************
+ * 인기상품 리소스 위치 조정 (문제 생기면 여기를 건드리셔요)
+ **************************/
+#top img
+{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#demo3
+{
+	margin: 20px auto 80px auto;
+}
+
+#demo3 .als-item
+{
+	margin: 40px 30px;
+	min-height: 152px;
+	min-width: 128px;
+}
+
+#demo3 .als-item img
+{
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+	width: 120px;
+	border: 2px solid #49c1ab;
+}
+
+#demo3 .als-prev, #demo3 .als-next
+{
+	top: 70px;
+	width: 15px;
+	height: 22px;
+}
+
+#demo3 .als-prev
+{
+	left: 70px;
+}
+
+#demo3 .als-next
+{
+	right: 130px;
+}
+
+/***********************
+* 유형별 분류 상품
+************************/
+
+/**푸터**/
+#footer
