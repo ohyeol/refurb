@@ -6,14 +6,12 @@
 
 <meta charset="UTF-8">
 <title>청주 리퍼브 아울렛</title>
-<meta name="Generator" content="EditPlus®">
+<meta name="Generator" content="Refurb">
 <meta name="Author" content="">
 <meta name="Keywords" content="">
 <meta name="Description" content="">
 
 <script src="<%=prjName%>/js/jquery-1.11.3.js"></script>
-<script src="<%=prjName%>/js/head.js"></script>
-
 
 	<!-- CSSreset은 건들지 마세요!-->
 <link rel="stylesheet" type="text/css" media="screen" href="<%=prjName%>css/CSSreset.min.css" />
@@ -29,3 +27,7 @@
 <script type="text/javascript" src="<%=prjName%>js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="<%=prjName%>js/jquery.als-1.7.min.js"></script>
 
+<script src="<%=prjName%>/js/jquery.bxslider.js"></script>
+
+<script src="<%=prjName%>/js/head.js"></script>
+<script src="<%=prjName%>/js/main.js"></script>

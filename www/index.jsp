@@ -75,32 +75,65 @@
 
 
 			<div class="w1200">
-				<!--인기 상품 top 10-->
-				<div id="top">
-					<img src="img/top.png">
+				<div>
+					<!--인기 상품 top 10-->
+					<div id="top">
+						<img src="img/top.png">
+					</div>
+					<div class="als-container" id="demo3">
+						<span class="als-prev"><img src="img/leftarrow.png" alt="prev" title="previous" /></span>
+							<div class="als-viewport">
+								<ul class="als-wrapper">
+									<li class="als-item"><img src="img/pots.jpg" alt="orange" title="orange" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="apple" title="apple" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="banana" title="banana" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="blueberry" title="blueberry" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="watermelon" title="watermelon" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="cherry" title="cherry" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="strawberry" title="strawberry" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="avocado" title="avocado" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li>
+								</ul>
+							</div>
+						<span class="als-next"><img src="img/rightarrow.png" alt="next" title="next" /></span>
+					</div>
+					<!--유형 별 추천 상품-->
 				</div>
-				<div class="als-container" id="demo3">
-					<span class="als-prev"><img src="img/leftarrow.png" alt="prev" title="previous" /></span>
-						<div class="als-viewport">
-							<ul class="als-wrapper">
-								<li class="als-item"><img src="img/pots.jpg" alt="orange" title="orange" />냄비</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="apple" title="apple" />팬</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="banana" title="banana" />냄비</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="blueberry" title="blueberry" />팬</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="watermelon" title="watermelon" />냄비</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="cherry" title="cherry" />팬</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="strawberry" title="strawberry" />냄비</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="avocado" title="avocado" />팬</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li>
-								<li class="als-item"><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li>
+				
+				<div class="mainPrdList-div">
+					<ul class="mainPrdList-type">
+						<li>자취생</li>
+						<li>주부</li>
+						<li>회사원</li>
+					</ul>
+					<div class="mainPrdList-cont">
+						<div class="als-container mainPrdList-cont">
+							<span class="bx-ctrl"><img src="img/rightarrow.png" alt="next" title="next" /></span>
+							<ul>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />1번 상품</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />후라이팬</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
+								<li><img src="img/pots.jpg" alt="pear" title="pear" />전자레인지</li>
 							</ul>
+							<span class="bx-ctrl"><img src="img/rightarrow.png" alt="next" title="next" /></span>
 						</div>
-					<span class="als-next"><img src="img/rightarrow.png" alt="next" title="next" /></span>
-				</div>
-				<!--유형 별 추천 상품-->
-			</div>
+					</div>
+				</div><!-- mainPrdList end -->
+				
+			</div> <!-- w1200 end -->
 			
-
 		</div>	<!-- .cont end -->
 		<!-- content e -->
 		

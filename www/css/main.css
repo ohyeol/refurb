@@ -39,11 +39,19 @@
 #head .rcnt li{list-style:none;padding:10px;border:1px solid #8e8b8b;margin-top:5px;}
 #head .rcnt img{width:70px;margin:0 auto;}
 
-
-
+/** 푸터 **/
+#foot{min-height:100px;}
+#foot ul li:first-of-type{border:none;}
+#foot ul li{list-style:none; font-size:14pt; border-left:1px solid #49c1ab; float:left; padding:0 20px;}
 
 
 #cont .c_top{background:#49c1ab;padding:30px 0;}
+#cont ul.mainPrdList-type{overflow:hidden;}
+#cont .mainPrdList-type li {float:left; padding-left:20px;list-style:none;font-size:16pt;}
+#cont .mainPrdList-cont {padding:40px 0;}
+#cont .mainPrdList-cont .bx-ctrl{position:absolute;}
+#cont .mainPrdList-cont li img{width:120px;    border: 2px solid #49c1ab;}
+
 
 
 

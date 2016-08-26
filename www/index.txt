@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+
+
+
+<meta charset="UTF-8">
+<title>청주 리퍼브 아울렛</title>
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="/refurb//js/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript" src="/refurb//js/head.js"></script>
+<script type="text/javascript" src="/refurb//js/main.js"></script>
+
+
+
+
+
+	<!-- CSSreset은 건들지 마세요!-->
+<link rel="stylesheet" type="text/css" media="screen" href="/refurb/css/CSSreset.min.css" />
+<link  type="text/css" media="all" href="/refurb/css/main.css" rel="stylesheet"/>
+
+
+	<!--캐러셀(이미지 슬라이드) 스크립트 건들지 마세요-->
+<link  rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"  />
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+<!--슬라이드 스크롤 스크립트 건들지마세요-->
+<script type="text/javascript" src="/refurb/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/refurb/js/jquery.als-1.7.min.js"></script>
+
+
+		<script type="text/javascript">
+		/*슬라이드 스크롤 스크립트 건들지마세요*/
+		$(document).ready(
+			function() {
+				$("#demo3").als({
+					visible_items: 5,
+					scrolling_items: 2,
+					orientation: "horizontal",
+					circular: "yes",
+					autoscroll: "yes",
+					interval: 5000,
+					speed: 500,
+					easing: "linear",
+					direction: "left",
+					start_from: 0
+				});
+			});
+		</script>
+	</head>
+	<body style="height:110%;">
+		<!-- Header s -->
+		
+<div id="head">
+	<div class="h_top w1200">
+		<div class="h_left">
+			<div class="h_logo">
+				<a href="main.html" target="_self">
+					<img src="/refurb/img/logo.jpg">
+				</a>
+			</div>
+		</div>
+		<div class="h_right">
+			<div class="h_member">
+				<span><img src="/refurb/img/login.jpg"></span>
+			</div>
+			<div class="h_search">
+				<input type="text" />
+			</div>
+		</div>
+	</div>
+	
+	<!--상단 메뉴바-->
+	<div class="bgGB"> 
+		<div class="topMenu w1200">
+			<ul class="depth1">
+				<li>
+					<span>HOME</span>
+				</li>
+				<li>
+					<span>첫번째 메뉴</span>
+					<div class="depth2">
+						<ul >
+							<li><a>첫 번째 하위메뉴1</a></li>
+							<li><a>첫 번째 하위메뉴2</a></li>
+							<li><a>첫 번째 하위메뉴3</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<span>두번째 메뉴</span>
+					<div class="depth2">
+						<ul >
+							<li><a>두 번째 하위메뉴1</a></li>
+							<li><a>두 번째 하위메뉴2</a></li>
+							<li><a>두 번째 하위메뉴3</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- 최근 본 상품 -->
+	<div class="rcnt">
+		<div><img src="" alt="위 화살표"/></div>
+		<div class="rcntCont">
+			<div class="rcntTit"><h2 >최근 본 상품</h2></div>
+			<ul>
+				<li><img src="/refurb/img/pan.jpg" /><br/><a>상품1</a></li>
+				<li><img src="/refurb/img/pan.jpg" /><br/><a>상품2</a></li>
+			</ul>df
+		</div>
+		<div><img src="" alt="아래 화살표"/></div>
+	</div>
+</div>
+		<!-- Header e -->
+
+		<!-- content s -->
+		<div id="cont"> 
+			<div class="bgGB" >
+	    		<div class="c_top w1200">
+					 <!--광고 슬라이더(캐러셀)-->
+					 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+						 	<!--페이지-->
+						 	<ol class="carousel-indicators">
+						 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						 		<li data-target="#myCarousel" data-slide-to="1" style="margin-left:3%;"></li>
+						 		<li data-target="#myCarousel" data-slide-to="2" style="margin-left:3%;"></li>
+						 	</ol>
+						 	<div class="carousel-inner">
+						 		<!--슬라이드1-->
+						 		<div class="item active">
+						 			<img src="img/testad.jpg" style="width:100%" alt="First slide">
+						 			<div class="container">
+						 				<div class="carousel-caption">
+						 				</div>
+						 			</div>
+						 		</div>
+						 		<!--슬라이드2-->
+						 		<div class="item">
+						 			<img src="img/testad.jpg" style="width:100%" data-src="" alt="Second slide">
+						 			<div class="container">
+						 				<div class="carousel-caption">
+						 				</div>
+						 			</div>
+						 		</div>
+						 		<!--슬라이드3-->
+						 		<div class="item">
+						 			<img src="img/testad.jpg" style="width:100%" data-src="" alt="Third slide">
+						 			<div class="container">
+						 				<div class="carousel-caption">
+						 				</div>
+						 			</div>
+						 		</div>
+						 	</div>
+						<!--이전, 다음 버튼-->
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					 	<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+					</div>
+					
+				</div>	<!-- c_top bg end -->
+			</div><!-- c_top end -->
+
+
+			<div class="w1200">
+				<!--인기 상품 top 10-->
+				<div>
+					<div id="top">
+						<img src="img/top.png">
+					</div>
+					<div class="als-container" id="demo3">
+						<span class="als-prev"><img src="img/leftarrow.png" alt="prev" title="previous" /></span>
+							<div class="als-viewport">
+								<ul class="als-wrapper">
+									<li class="als-item"><img src="img/pots.jpg" alt="orange" title="orange" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="apple" title="apple" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="banana" title="banana" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="blueberry" title="blueberry" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="watermelon" title="watermelon" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="cherry" title="cherry" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="strawberry" title="strawberry" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="avocado" title="avocado" />팬</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li>
+									<li class="als-item"><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li>
+								</ul>
+							</div>
+						<span class="als-next"><img src="img/rightarrow.png" alt="next" title="next" /></span>
+					</div>
+				</div>
+				<!--유형 별 추천 상품-->
+					
+					
+				<div>
+					<ul class="prdList-type">
+						<li>대학생</li>
+						<li>주부</li>
+						<li>회사원</li>
+					</ul>
+					<div>
+						<div class="als-container prdList-cont">
+							<ul>
+	<!-- 							<li><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li> -->
+	<!-- 							<li><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li> -->
+	<!-- 							<li><img src="img/pots.jpg" alt="pear" title="pear" />냄비</li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>	<!-- .cont end -->
+		
+		<!-- content e -->
+		
+		
+		
+		<!-- footer s -->
+		
+<div id="foot">
+	<div class="w1200">
+		<ul>
+			<li>정책및 약관</li>
+			<li>회사 소개</li>
+			<li>개인정보 취급방침</li>
+			<li>고객센터</li>
+		</ul>
+		<ul>
+			<li><span>TEL : 000-0000</span></li>
+			<li><span>주소 : 충북 청주시 0동 00로 00C</span></li>
+			<li><span>아름드리</span></li>
+		</ul>
+	</div>
+</div>
+
+		<!-- footer e -->
+	</body>
+</html>
